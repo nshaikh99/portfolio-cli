@@ -53,7 +53,7 @@ function wget(args) {
     for(let i = 0; i < args.length; i++) {
         switch(args[i]) {
             case 'resume.pdf':
-                window.open('https://www.nabeelshaikh.com/static/media/Resume%20-%20Nabeel%20Shaikh.d2cb1549442cf6e4240c.pdf', '_blank')
+                window.open('https://www.nabeelshaikh.com/static/media/Resume%20-%20Nabeel%20Shaikh.5f44738171eed5dc2b56.pdf', '_blank')
                 return 'Opening file in new window...'
             default:
                 window.open(args[i].slice(0, 7) === 'http://' || args[i].slice(0, 8) === 'https://' ? args[i] : 'http://' + args[i], '_blank')
